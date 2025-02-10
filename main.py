@@ -71,3 +71,15 @@ resposta = input('Deseja continuar? [S/N]')  # Pergunta ao usuário
 while resposta == 'S':  # Enquanto o usuário digitar 'S', continua executando
     print('Executei!')  # Mensagem exibida a cada iteração
     resposta = input('Deseja continuar? [S/N]')  # Pergunta novamente
+
+# Loop 'for' iterando sobre uma string
+for item in 'boa tarde!':  # A string é percorrida caractere por caractere
+    print(item)  # Cada caractere da string será impresso separadamente
+
+
+# Lista de filmes
+filmes = ['Carros', 'Rei Leão', 'Toy Story', 'Mulan']
+
+# Loop 'for' iterando sobre uma lista
+for item in filmes:  # Percorre a lista, atribuindo cada elemento à variável 'item'
+    print(item)  # Imprime o nome de cada filme
