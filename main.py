@@ -32,6 +32,15 @@ elif login == 'marina' and senha == '35912973':  # Outra combinação válida
 else:
     print('Senha incorreta!')  # Qualquer outra entrada gera erro de senha
 
+
+cadastro = input('Digite seu nome:')
+
+if cadastro == 'vini' or cadastro == 'Carol':
+    print('Parabéns!!!')
+else:
+    print('Acesso Negado!')
+
+
 # Estruturas de dados
 
 # Lista (list) - Estrutura mutável que armazena vários valores ordenados
@@ -83,3 +92,25 @@ filmes = ['Carros', 'Rei Leão', 'Toy Story', 'Mulan']
 # Loop 'for' iterando sobre uma lista
 for item in filmes:  # Percorre a lista, atribuindo cada elemento à variável 'item'
     print(item)  # Imprime o nome de cada filme
+
+# ---------------------------------------------------------------------
+
+
+def soma(numero1, numero2, numero3=5):
+    return f'{numero1 * numero2}'(numero1 * numero2) / numero3
+
+
+n1 = int(input('Digite um numero:'))
+n2 = int(input('Digite um numero:'))
+n3 = int(input('Digite um numero:'))
+
+resultado = soma(n1, n2, n3)
+print(resultado)
+
+# ---------------------------------------------------
+
+pratos = ['PIZZA', 'Churrasco', 'Macarão', 33, 1.9, True]
+
+dia = 'vini'
+
+print(f"olá {dia}")

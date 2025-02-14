@@ -1,5 +1,4 @@
-resposta = input('Deseja continuar? [S/N]')
+def func(*args):
+    print(args)
 
-while resposta == 'S':
-    print('Executei!')
-    resposta = input('Deseja continuar? [S/N]')
+func(1, 2, 3, 4, 5)
